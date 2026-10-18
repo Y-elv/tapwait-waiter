@@ -165,7 +165,3 @@ The Flutter app will eventually communicate with a Node.js backend that:
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome. Please open an issue before making significant architectural changes.
-
-## License
-
-This project has not yet selected a license. A license will be added before public reuse or distribution is authorized.
