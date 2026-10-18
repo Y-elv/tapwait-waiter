@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <uses-permission android:name="android.permission.VIBRATE"/>
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:label="tapwait_waiter"
         android:name="${applicationName}"
@@ -26,6 +29,19 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        
+        <service
+            android:name=".NotificationCaptureService"
+            android:label="Tapwait Notification History"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

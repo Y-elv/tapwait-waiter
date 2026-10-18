@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692727097488",
+    "project_id": "tapwait",
+    "storage_bucket": "tapwait.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692727097488:android:2af76afe4ae44bb72b1015",
+        "android_client_info": {
+          "package_name": "com.example.tapwait_waiter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdMQ20bXR3V1KZ9iaq0FK3mXCbuBr0gA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
